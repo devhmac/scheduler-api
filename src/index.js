@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 7684;
 const ENV = require("./environment");
 
 const app = require("./application")(ENV, { updateAppointment });
